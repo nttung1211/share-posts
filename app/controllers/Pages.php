@@ -1,0 +1,20 @@
+<?php
+
+class Pages extends Controller {
+  public function __construct() {
+
+  }
+
+  public function index() {
+    $data = [
+      'title' => 'welcome'
+    ];
+
+    $this->view('pages/index', $data); 
+  }
+
+  public function about() { // ? this method always requires a parameter
+    $this->view('pages/about');
+  }
+}
+
