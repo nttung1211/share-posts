@@ -1,8 +1,12 @@
 <?php
 
+/*
+ * CALL CONTROLLER BASED ON URL
+ */
+
 class Core {
   protected $currentController = 'Pages';
-  protected $currentMethod = 'index';
+	protected $currentMethod = 'index';
   protected $params = [];
 
   public function __construct() {
@@ -11,7 +15,7 @@ class Core {
     // + look in controllers dir for the first part of the url
     if (isset($url) && file_exists('../app/controllers/' . ucwords($url[0]) . '.php')) {
       $this->currentController = ucwords($url[0]); 
-      unset($url[0]); // ? when we do not go to pages then this will not be deleted and first part of url will eventually be a parameter
+      unset($url[0]); // ? when we do not go to pages then this will not be unset and first part of url will eventually be a parameter. <SELF> This should be outside of this if statement.
     }
 
     require '../app/controllers/' . $this->currentController . '.php';
