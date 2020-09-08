@@ -19,7 +19,43 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69ee20dd-f7bf-484b-b168-0eee630d952a" name="Default Changelist" comment="" />
+    <list default="true" id="69ee20dd-f7bf-484b-b168-0eee630d952a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/Posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/Users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/MyException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/Validator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/session.helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/url.helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/inc/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/pages/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myMVC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libraries/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/libraries/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libraries/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/libraries/Core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libraries/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/libraries/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/inc/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,10 +64,18 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="showToolbar" value="false" />
   </component>
   <component name="ProjectId" id="1gl1lqNdTT760tUG7GOyOLPWnYT" />
@@ -39,6 +83,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,8 +91,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowProblems.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -58,8 +103,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/shared" />
+      <recent name="$PROJECT_DIR$/public/js" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,6 +123,10 @@
       <updated>1598674519258</updated>
       <workItem from="1598674520301" duration="8885000" />
       <workItem from="1598758665109" duration="8202000" />
+      <workItem from="1598803651547" duration="25000" />
+      <workItem from="1598803677719" duration="121000" />
+      <workItem from="1598803816623" duration="60405000" />
+      <workItem from="1599192599083" duration="20769000" />
     </task>
     <servers />
   </component>
@@ -93,34 +149,62 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="350" y="121" key="#Inspections" timestamp="1598759880761">
+    <state x="421" y="105" key="#CSS" timestamp="1598959627439">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="350" y="121" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1598759880761" />
-    <state x="0" y="251" key="#SQL_Dialects" timestamp="1598798886248">
+    <state x="421" y="105" key="#CSS/0.0.1440.900@0.0.1440.900" timestamp="1598959627439" />
+    <state x="350" y="121" key="#Inspections" timestamp="1599108071397">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="251" key="#SQL_Dialects/0.0.1440.900@0.0.1440.900" timestamp="1598798886248" />
-    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1598687404245">
+    <state x="350" y="121" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1599108071397" />
+    <state x="407" y="100" key="#JavaScript" timestamp="1598959635637">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1598687404245" />
+    <state x="407" y="100" key="#JavaScript/0.0.1440.900@0.0.1440.900" timestamp="1598959635637" />
+    <state x="416" y="0" width="925" height="900" key="#PHP" timestamp="1598973194021">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="416" y="0" width="925" height="900" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1598973194021" />
+    <state x="0" y="251" key="#SQL_Dialects" timestamp="1599128911922">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="251" key="#SQL_Dialects/0.0.1440.900@0.0.1440.900" timestamp="1599128911922" />
+    <state x="320" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599129178526">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1599129178526" />
+    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1599114714250">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1599114714250" />
     <state x="234" y="60" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1598756779628">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="234" y="60" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1598756779628" />
-    <state x="318" y="133" key="NewPhpClassDialog" timestamp="1598687159734">
+    <state x="471" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599105839685">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="318" y="133" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1598687159734" />
-    <state x="0" y="0" width="1348" height="897" key="SettingsEditor" timestamp="1598801534606">
+    <state x="471" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1599105839685" />
+    <state x="418" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599105673993">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" width="1348" height="897" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1598801534606" />
-    <state x="300" y="200" key="run.anything.popup" timestamp="1598788563484">
+    <state x="418" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1599105673993" />
+    <state x="318" y="133" key="NewPhpClassDialog" timestamp="1599188996511">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="300" y="200" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1598788563484" />
+    <state x="318" y="133" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1599188996511" />
+    <state x="515" y="365" key="NewPhpFileDialog" timestamp="1599219643679">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="515" y="365" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1599219643679" />
+    <state x="1" y="0" width="1371" height="897" key="SettingsEditor" timestamp="1599178837620">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="1" y="0" width="1371" height="897" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599178837620" />
+    <state x="300" y="200" key="run.anything.popup" timestamp="1599219683005">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="300" y="200" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1599219683005" />
     <state x="299" y="-1" key="search.everywhere.popup" timestamp="1598756657293">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

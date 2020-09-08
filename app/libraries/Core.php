@@ -6,8 +6,8 @@
 
 class Core {
   protected $currentController = 'Pages';
-	protected $currentMethod = 'index';
-  protected $params = [];
+	protected string $currentMethod = 'index';
+	protected $params = [];
 
   public function __construct() {
     $url = $this->getUrl();
@@ -33,7 +33,7 @@ class Core {
     $this->params = $url ? array_values($url) : [];
 
     // call the currentMethod with params
-    call_user_func_array([$this->currentController, $this->currentMethod], $this->params);
+    call_user_func_array([$this->currentController, $this->currentMethod], $this->params); // the first param is an array of an object and a string (name of the method).
   }
 
   public function getUrl() {
@@ -47,4 +47,3 @@ class Core {
     return null;
   }
 }
-

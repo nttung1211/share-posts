@@ -6,8 +6,8 @@ class Database {
 	private string $password = DB_PASSWORD;
 	private string $dbname = DB_NAME;
 
-	private PDO $dbHandler;
-	private $stmt;
+	private PDO $pdo;
+	private PDOStatement $stmt;
 	private string $error;
 
 	public function __construct() {
@@ -19,7 +19,7 @@ class Database {
 
 		// + CONNECT TO DATABASE
 		try {
-			$this->dbHandler = new PDO($dsn, $this->user, $this->password, $options);
+			$this->pdo = new PDO($dsn, $this->user, $this->password, $options);
 		}	catch(PDOException $exception) {
 			$this->error = $exception->getMessage();
 			echo $this->error;
@@ -27,7 +27,7 @@ class Database {
 	}
 
 	public function prep(string $query) {
-		$this->stmt = $this->dbHandler->prepare($query);
+		$this->stmt = $this->pdo->prepare($query);
 	}
 
 	public function bind($param, $value, $type = null) {
@@ -51,7 +51,7 @@ class Database {
 	}
 
 	public function exec() {
-		$this->stmt->execute();
+		return $this->stmt->execute();
 	}
 
 	public function getObjs() {
